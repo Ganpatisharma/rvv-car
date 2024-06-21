@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.66);
+}
+.heardersearch {
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    background-color: rgba(183, 205, 205, 0.13);
+}
+
+.logo {
+
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.subcontainer {
+
+    gap: 40px;
+    display: flex;
+}
+.subcontainer a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+.btn i{
+    margin: 0 8px;
+    color: black;
+}
+
+.btn i:hover{
+
+    color: black;
+}
+
+.btn:hover{
+
+    color: blue;
+}
+
